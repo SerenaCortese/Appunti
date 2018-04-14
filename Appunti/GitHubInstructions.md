@@ -1,6 +1,6 @@
 # Istruzioni GitHub
 ## Creazione nuovo Progetto
-1. Creo nuovo progetto su Eclipse normalmente: 
+* Creo nuovo progetto su Eclipse normalmente: 
   * `File` 
   * `New` 
   * `Java Project`
