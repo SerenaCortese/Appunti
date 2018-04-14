@@ -1,9 +1,9 @@
 # Istruzioni GitHub
 ## Creazione nuovo Progetto
 1. Creo nuovo progetto su Eclipse normalmente: 
-* `File` 
-* `New` 
-* `Java Project`
+  * `File` 
+  * `New` 
+  * `Java Project`
 
 2. Creo repository locale: 
 * tasto dx sul progetto
