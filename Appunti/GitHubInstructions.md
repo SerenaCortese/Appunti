@@ -34,6 +34,10 @@
   * `Next`
   * `Finish`
   * `Close`.
+* **Risoluzione di Push Rejected** : avviene quando si è modificato in remoto qualcosa e non si è fatto pull
+  * Osservare con `Fetch` le modifiche effettuate
+  * Fare `Pull` con opzione `Merge`così da fondere in un solo file le modifiche in locale e remoto
+  * Selezionare `Push to Upstream` che dovrebbe funzionare senza problemi.
   
 ## Lavorare su progetto presente in GitHub
 Se repository remoto in cui c'è progetto non è nella mia area GitHub, devo farne una copia cliccando su `Fork`, prima di eseguire i passaggi seguenti.
@@ -47,9 +51,9 @@ Partendo da un progetto con più rami in modo da avere versioni separate dello st
 * **Accedere ad un branch** In Eclipse nel menù `Team` ,cliccando su `Switch to` si può accedere ad un altro ramo del progetto.
 * **Creare un nuovo branch** In Eclipse nel menù `Team`, selezionare `Switch to` e poi `New Branch`, scegliere un nome da assegnare al branch e il branch di Origine da cui fare il nuovo ramo, selezionare `Configure upstream to push and pull` così che salvi anche in remoto, cliccare `Check out new branch` per iniziare a lavorare sul branch nuovo appena creato e poi `Finish`.
 * **Unire due rami** In Eclipse tramite il comando `Merge` che fonde le modifiche fatte in un branch (Branch2) con quelle del branch precedente (Branch1)che voglio far andare avanti, così da poter eliminare poi Branch2: 
-  ** Faccio `Switch to` Branch 1
-  ** Clicco `Team`, `Merge` e scelgo dalla lista il ramo che voglio fondere a questo (Branch2), seleziono `Finish`. _Il Merge avviene solo le modifiche sono compatibili, altrimenti Git lascia il progetto in uno stato da unire manualmente_ Ora i due branch sono allineati, puntano allo stesso punto.
-  ** Seleziono `Push to Upstream` in modo da salvare le modifiche in remoto.
+  * Faccio `Switch to` Branch 1
+  * Clicco `Team`, `Merge` e scelgo dalla lista il ramo che voglio fondere a questo (Branch2), seleziono `Finish`. _Il Merge avviene solo le modifiche sono compatibili, altrimenti Git lascia il progetto in uno stato da unire manualmente_ Ora i due branch sono allineati, puntano allo stesso punto.
+  * Seleziono `Push to Upstream` in modo da salvare le modifiche in remoto.
 
 Differenza tra `Merge` e `Rebase`:
 - **Merge** riporta tutti i commit del branch secondario nel primo, quindi si vedono tutti i passaggi intermedi
