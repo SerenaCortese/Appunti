@@ -43,6 +43,7 @@ Partendo da un progetto con più rami in modo da avere versioni separate dello st
   * Clicco `Team > Merge` e scelgo dalla lista il ramo che voglio fondere a questo (Branch2), seleziono `Finish`. _Il Merge avviene solo le modifiche sono compatibili, altrimenti Git lascia il progetto in uno stato da unire manualmente_ Ora i due branch sono allineati, puntano allo stesso punto.
   * Seleziono `Push to Upstream` in modo da salvare le modifiche in remoto.
 * **Eliminare un ramo** In Eclipse entrare nel ramo che si vuole tenere, dal menù `Team` selezionare `Remote > Push…`. Selezionare la cartella dove c'è il file in remoto e cliccare su `Next`. Affianco a `Remote ref to delete…` scegliere il branch da cancellare e cliccare `Add spec` e poi `Finish`.
+![Logo](img/deleteBranchProcedure.png)
 
 Differenza tra `Merge` e `Rebase`:
 - **Merge** riporta tutti i commit del branch secondario nel primo, quindi si vedono tutti i passaggi intermedi
