@@ -18,4 +18,4 @@ Nelle stringhe in stampa invece usare `%-NUMEROs` per spaziare di più le scritte
 
 risulta così: 
 
-![Logo](img/scritteInColonna.png)
+![Logo](img/scritteInColonna.PNG)

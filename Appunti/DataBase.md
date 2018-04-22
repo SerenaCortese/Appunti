@@ -2,7 +2,7 @@
 ## Importare un DB
 * Scaricare il database in formato `.sql`
 * Avviare il database locale `XAMPP`
-* Lanciare il programma `HeidiSQL` e selezionare `File > Carica file SQL` e selezionare il file del database.
+* Lanciare il programma `HeidiSQL` e selezionare `File > Carica file SQL` e selezionare il file del database e cliccare sul tasto `Aggiorna`.
 
 ## Aggiungere dati a un DB esistente
 
