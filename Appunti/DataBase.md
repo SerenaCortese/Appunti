@@ -1,5 +1,10 @@
 # Operazioni su Database
-## Aggiungere dati a un DB
+## Importare un DB
+* Scaricare il database in formato `.sql`
+* Avviare il database locale `XAMPP`
+* Lanciare il programma `HeidiSQL` e selezionare `File > Carica file SQL` e selezionare il file del database.
+
+## Aggiungere dati a un DB esistente
 
 Esempio ( preso da [Lab04_SegreteriaStudenti](https://github.com/SerenaCortese/Lab04) ) :
 
